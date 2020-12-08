@@ -1,0 +1,31 @@
+.App {
+    text-align: center;
+  }
+.login-div{
+    padding: 20px;
+}
+.signup-div{
+    padding: 20px;
+}
+.restaurant-div{
+    display: inline-block;
+    
+}
+.shimmer-parent{
+    overflow: hidden;
+}
+.shimmer{
+    transition: transform .5s ease;
+}
+.shimmer2{
+    transition: transform .5s ease;
+}
+.shimmer:hover{
+    transform: scale(1.05);
+}
+.shimmer2:hover{
+    transform: scale(1.02);
+}
+image{
+    overflow: hidden;
+}
